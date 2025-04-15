@@ -1,0 +1,49 @@
+/* 1. Reset and Base Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* 2. Header and Footer */
+header, footer {
+  background-color: #f4f4f4; /* light grey background */
+  padding: 1rem;
+}
+
+/* Make headings in header and footer spaced consistently */
+header h1, footer p {
+  margin: 0;
+}
+
+/* 3. Navigation Bar Links */
+nav a {
+  margin-right: 1rem; 
+  text-decoration: none; 
+  color: #333; /* dark grey text */
+}
+
+/* Hover effect on links */
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* 4. Main Content Area */
+main {
+  padding: 1rem;
+}
+
+/* 5. Section or Article Styling */
+section, article {
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc; 
+  padding-bottom: 1rem;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 0.5rem;
+}
